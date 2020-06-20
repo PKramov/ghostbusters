@@ -16,7 +16,7 @@ $(document).ready(function () {
     $(activeTabContent).toggleClass("visible");
   });
 
-  const mySwiper = new Swiper(".swiper-container", {
+  var mySwiper = new Swiper(".swiper-container", {
     slidesPerView: 4,
     spaceBetween: 25,
     loop: true,
